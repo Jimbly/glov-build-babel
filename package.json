@@ -1,0 +1,29 @@
+{
+  "name": "glov-build-babel",
+  "version": "0.0.1",
+  "description": "Babel task processor for glov-build",
+  "main": "index.js",
+  "keywords": [
+    "glov-build",
+    "glov",
+    "glovjs",
+    "babel"
+  ],
+  "author": "Jimb Esser (https://github.com/Jimbly)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jimbly/glov-build-babel.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "glov-build-sourcemap": "0.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "glov-build": "^0.0.18"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "glov-build": ">= 0.0.18"
+  }
+}
