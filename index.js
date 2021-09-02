@@ -41,8 +41,10 @@ module.exports = function (opts) {
     }
     assert.equal(typeof result.code, 'string');
     assert(result.map);
+    // Output the result of TypeScript source files as .js files
+    let relative_out = source_file.relative.replace(/\.ts$/, '.js');
     sourcemap.out(job, {
-      relative: source_file.relative,
+      relative: relative_out,
       contents: result.code,
       map: result.map,
       ...opts.sourcemap,
