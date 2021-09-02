@@ -41,7 +41,6 @@ module.exports = function (opts) {
     }
     assert.equal(typeof result.code, 'string');
     assert(result.map);
-    result.map.file = path.basename(source_file.relative);
     sourcemap.out(job, {
       relative: source_file.relative,
       contents: result.code,
