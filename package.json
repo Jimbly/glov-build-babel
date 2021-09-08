@@ -1,6 +1,6 @@
 {
   "name": "glov-build-babel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Babel task processor for glov-build",
   "main": "index.js",
   "keywords": [
@@ -24,6 +24,6 @@
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
-    "glov-build": ">= 0.0.18"
+    "glov-build": ">= 0.0.31"
   }
 }

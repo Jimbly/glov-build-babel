@@ -55,5 +55,8 @@ module.exports = function (opts) {
     type: gb.SINGLE,
     init: babelInit,
     func: babelTaskFunc,
+    version: [
+      opts,
+    ],
   };
 };
