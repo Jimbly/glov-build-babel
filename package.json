@@ -1,6 +1,6 @@
 {
   "name": "glov-build-babel",
-  "version": "0.0.4",
+  "version": "1.0.4",
   "description": "Babel task processor for glov-build",
   "main": "index.js",
   "keywords": [
@@ -16,14 +16,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "glov-build-sourcemap": "^0.0.5"
+    "glov-build-sourcemap": "^1.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "glov-build": "^0.0.18"
+    "glov-build": "^1.0.36"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
-    "glov-build": ">= 0.0.32"
+    "glov-build": ">= 1.0.36"
   }
 }
